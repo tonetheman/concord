@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "outliner-test",
+  "description": "this is for testing outlines",
+    "background" : {
+    "scripts": ["background.js"]
+  },
+  "version": "1.0",
+  "permissions": [
+  ],
+  "browser_action": {
+    "default_icon": "icon.png"
+  }
+}
