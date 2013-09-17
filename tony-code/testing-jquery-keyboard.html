@@ -1,0 +1,56 @@
+<html>
+
+<head>
+	<script src="jquery-1.10.2.js"></script>
+</head>
+
+<body>
+	<div id="messages"></div>
+	<div id="fakecontainer"></div>
+
+<script type="text/javascript">
+function FakeConcord(container, options) {
+	console.log("making me a fake concord!");
+	this.id = 1;
+	this.container = container;
+	this.options = options;
+	return this;
+}
+
+function effme_some_jquery() {
+
+	(function ($) {
+
+		$.fn.fake_concord = function(options) {
+			return new FakeConcord($(this), options);
+		};
+
+		$(document).on("keydown", function(event) {
+			console.log("context: %j", context);
+			console.log("event: %j",event);
+			console.log("event.which: %j", event.which);
+		});
+
+	})(jQuery);
+
+}
+
+
+function handle_ready() {
+	console.log("handle ready mfer");
+
+	effme_some_jquery();
+
+
+	$("#fakecontainer").fake_concord( { effme : 1 });
+
+}
+
+$(document).ready(handle_ready);
+</script>
+
+
+
+
+</body>
+</html>
