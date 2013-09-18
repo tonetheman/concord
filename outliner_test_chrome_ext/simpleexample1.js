@@ -1,6 +1,6 @@
 			var appConsts = {
-				"productname": "Hello",
-				"productnameForDisplay": "Hello Outliner",
+				"productname": "Hello Chrome Extension",
+				"productnameForDisplay": "CE Outliner",
 				"domain": "hello.blorkmark.com", 
 				"version": "0.50"
 				}

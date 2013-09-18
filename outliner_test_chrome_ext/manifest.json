@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "outliner-test",
-  "description": "this is for testing outlines",
+  "name": "Concord Outliner  Chrome Extension",
+  "description": "Concord Outliner Chrome Extension",
     "background" : {
     "scripts": ["background.js"]
   },
