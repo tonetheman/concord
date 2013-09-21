@@ -36,13 +36,15 @@ Concord is the outlining engine in Fargo.
 
 Ideas include file systems, mailboxes, chatrooms, databases, documents, presentations, product plans, code, libraries, laws, systems of laws, contracts, rules, guidelines, principles, docs, manifestos, journals, blogs, etc. 
 
-The GPL is the right license for our goals. We want to encourage developers to add features compatibly, so that all outlines open, and can be edited in all environments. If commercial developers want to add private features to the outliner, we will try to work with them. We just want to be sure we can have a conversation about compatibility, and perhaps create revenue to fund development. If a non-commercial project emerges that breaks compatibilty, because the GPL is used, we will have the option of bringing their work into compatibility. 
+Here's an important 11-minute <a href="http://scripting.com/2013/09/17/importantPodcastAboutConcordGpl">podcast</a> about Concord and the GPL.  
 
 
 
-### Example 0: The bare minumum
+### Example 0: The bare minimum
 
-This <a href="https://github.com/scripting/concord/tree/master/example0">example</a> has the bare minimum to add an outliner to an existing app.
+This <a href="https://github.com/scripting/concord/blob/master/example0/index.html">example</a> has the bare minimum to add an outliner to an existing app.
+
+This saves developers the trouble of having to factor it out of Example 1, below.
 
 You can try it out <a href="http://static.smallpicture.com/concord/example0/index.html">here</a>. 
 
@@ -50,7 +52,7 @@ You can try it out <a href="http://static.smallpicture.com/concord/example0/inde
 
 ### Example 1: Hello Outliner
 
-This <a href="https://github.com/scripting/concord/tree/master/example1">example</a> is a functional outliner, with most of the capabilities of the Little Outliner app and the same basic approach. You edit a single outline, saved in local storage, so it's there when you come back to it, but only on that machine.
+This <a href="https://github.com/scripting/concord/tree/master/example1/index.html">example</a> is a functional outliner, with most of the capabilities of the Little Outliner app and the same basic approach. You edit a single outline, saved in local storage, so it's there when you come back to it, but only on that machine.
 
 It has a simple menubar, with menus containing Outliner commands, links to OPML documents you can view and edit, and links to docs.
 
@@ -58,9 +60,29 @@ You can try it out <a href="http://static.smallpicture.com/concord/example1/inde
 
 
 
+### Example 2: Small Picture Reader
+
+We've released the <a href="https://github.com/scripting/concord/blob/master/example2/index.html">source</a> for <a href="http://docs.fargo.io/fargo/reader">Small Picture Reader</a> under the GPL as part of the Concord release.
+
+This app provides a way to read any OPML file even if you aren't using an outliner.
+
+There's a command in Fargo that creates a link between the document you're editing and a reader version.
+
+If you want to run the app, <a href="http://reader.blorkmark.com/">click here</a>.
+
+
+
 ### Inaugural blog post
 
 <a href="http://scripting.com/2013/09/16/concordOurGplOutliner">Here's the post</a> I ran on Scripting News when Concord was publicly announced. It includes a link to a podcast.
+
+
+
+### Worknotes
+
+I keep a log of work I do on Concord, in an <a href="https://raw.github.com/scripting/concord/master/opml/worknotes.opml">outline</a> of course. 
+
+There's a <a href="https://github.com/scripting/concord/blob/master/worknotes.md">markdown rendering</a> of the worknotes file. 
 
 
 
