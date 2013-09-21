@@ -1,0 +1,9 @@
+I added the real repo with this command
+
+git remote add scripting <REAL SCRIPTING REPO>
+
+git fetch scripting
+git merge scripting/master
+git push
+
+
